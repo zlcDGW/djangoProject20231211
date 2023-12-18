@@ -127,7 +127,5 @@ STATIC_URL = '/static/'
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.sina.com'
 EMAIL_PORT = 25
-EMAIL_HOST_USER = 'zlc18317773889@sina.com'
-EMAIL_HOST_PASSWORD = '96680a078197f9b8'#应该是授权码而不是密码,密码zlc174410
 # 注册有效期天数
 CONFIRM_DAYS = 7
